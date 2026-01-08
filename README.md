@@ -1,1 +1,1 @@
-Sapmle Portfolio
+Sample Portfolio
