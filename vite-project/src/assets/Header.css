@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -7,4 +8,15 @@
 }
  .navlink:hover {
     font-weight: bold;
+=======
+
+
+.nav-link.active {
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+.nav-link:hover {
+    font-weight: bold;
+    transition-duration: 1s;
+>>>>>>> features/correction/1
  }
