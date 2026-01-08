@@ -16,7 +16,7 @@ function App() {
     <div>
       <Header />
           <div className="slider">
-              <h1 className="text-light text-center">Bonjour, je suis John Doe</h1>
+              <h1 className="text-light text-center">Bonjour, je suis Aymeric Lopez</h1>
               <h2 className="text-light text-center mb-4">Développeur web full stack</h2>
               <GitHubProfileModal />
           </div>
@@ -47,12 +47,12 @@ function App() {
                               <ProgressBar variant="warning" now={70} />
                           </div>
                           <div className='py-2'>
-                              <h5 className="py-2">PHP 60%</h5>
-                              <ProgressBar variant="success" now={60} />
-                          </div>
-                          <div className='py-2'>
                               <h5 className="py-2">REACT 50%</h5>
                               <ProgressBar variant="primary" now={50} />
+                          </div>
+                          <div className='py-2'>
+                              <h5 className="py-2">PHP 20%</h5>
+                              <ProgressBar variant="success" now={20} />
                           </div>
                       
                       </div>

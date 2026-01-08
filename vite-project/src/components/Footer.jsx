@@ -9,12 +9,23 @@ const Footer = () => {
                 <div className="container">
                     <div className="row justify content-evenly">
                         <div className="col-md-3 pt-4 ps-4">
-                            <h4>John Doe</h4>
+                            <h4>Aymeric Lopez</h4>
                             <ul className="linkFooter socialIcon list-unstyled">
-                                <li><a target="_blank" href="https://www.google.com/maps/place/40+Rue+Laure+Diebold,+69009+Lyon/@45.778662,4.796404,17z/data=!3m1!4b1!4m6!3m5!1s0x47f4eb65edac5b3f:0xe01c47049cb2e2b9!8m2!3d45.778662!4d4.7989789!16s%2Fg%2F11c24790th?hl=fr&entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D" className="text-decoration-none text-white">40 rue Laure Diebold</a></li>
-                                <li><a target="_blank" href="https://www.google.com/maps/place/40+Rue+Laure+Diebold,+69009+Lyon/@45.778662,4.796404,17z/data=!3m1!4b1!4m6!3m5!1s0x47f4eb65edac5b3f:0xe01c47049cb2e2b9!8m2!3d45.778662!4d4.7989789!16s%2Fg%2F11c24790th?hl=fr&entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D" className="text-decoration-none text-white">69009 Lyon, France</a></li>
-                                <li><a target="_blank" href="mailto:john.doe@gmail.com" className="text-decoration-none text-white">10 20 30 40 50</a></li>
-                                <li><a target="_blank" href="tel:1020304050" className="text-decoration-none text-white">john.doe@gmail.com</a></li>
+                                <li><a target="_blank" 
+                                href="https://www.google.com/maps/place/H%C3%B4tel+de+Ville+de+La+Rochelle/@46.1597217,-1.1519979,18.75z/data=!4m15!1m8!3m7!1s0x480153af46723d7f:0xf8c5b8d2fa70ec3d!2s3+Pl.+de+l'H%C3%B4tel+de+ville,+17000+La+Rochelle!3b1!8m2!3d46.1598124!4d-1.1519234!16s%2Fg%2F11fkkld6y6!3m5!1s0x480153af50747dcb:0x2e30dde28f881ba7!8m2!3d46.159678!4d-1.151414!16s%2Fg%2F1238mb3q?hl=fr&entry=ttu&g_ep=EgoyMDI1MTIwMS4wIKXMDSoASAFQAw%3D%3D" 
+                                className="text-decoration-none text-white">3 Place de l'Hôtel de ville
+                                </a></li>
+                                <li><a target="_blank" 
+                                href="https://www.google.com/maps/place/H%C3%B4tel+de+Ville+de+La+Rochelle/@46.1597217,-1.1519979,18.75z/data=!4m15!1m8!3m7!1s0x480153af46723d7f:0xf8c5b8d2fa70ec3d!2s3+Pl.+de+l'H%C3%B4tel+de+ville,+17000+La+Rochelle!3b1!8m2!3d46.1598124!4d-1.1519234!16s%2Fg%2F11fkkld6y6!3m5!1s0x480153af50747dcb:0x2e30dde28f881ba7!8m2!3d46.159678!4d-1.151414!16s%2Fg%2F1238mb3q?hl=fr&entry=ttu&g_ep=EgoyMDI1MTIwMS4wIKXMDSoASAFQAw%3D%3D" 
+                                className="text-decoration-none text-white">17000 La Rochelle, France
+                                </a></li>
+                                <li><a target="_blank" 
+                                href="mailto:john.doe@gmail.com" 
+                                className="text-decoration-none text-white">05 46 51 51 51
+                                </a></li>
+                                <li><a target="_blank" 
+                                href="tel:1020304050" 
+                                className="text-decoration-none text-white">aymericlopez.92@gmail.com</a></li>
                             </ul>
                             <div className="col pt-2">
                                 <a href="https://github.com/" className="text-secondary"><i className="socialIcon fa-brands fa-github fs-2"></i></a>

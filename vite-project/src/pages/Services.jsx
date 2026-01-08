@@ -1,7 +1,6 @@
 
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
-import '../assets/Services.css'
 import Image from 'react-bootstrap/Image';
 import imgBanner from '../images/banner.jpg';
 

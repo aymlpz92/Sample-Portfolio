@@ -13,8 +13,8 @@ const Header = () => {
         <div>
             <Navbar collapseOnSelect expand="md" className="bg-dark text-uppercase">
                 <Container fluid>
-                    <Navbar.Brand className='text-light mx-3' href="/">John Doe</Navbar.Brand>
-                    <Navbar.Toggle className='bg-light' aria-controls="responsive-navbar-nav" />
+                    <Navbar.Brand className='text-light mx-3' as={Link} to="/">Aymeric Lopez</Navbar.Brand>
+                    <Navbar.Toggle className='light' aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className='justify-content-end mx-3' id="responsive-navbar-nav">
                         <Nav className="mr-auto">
                             <Nav.Link className='navlink text-light' as={Link} to="/">Acceuil</Nav.Link>

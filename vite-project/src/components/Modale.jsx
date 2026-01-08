@@ -8,7 +8,7 @@ function GitHubProfileModal() {
   const [error, setError] = useState(null);
 
   
-  useEffect(() => {
+  useEffect( () => {
     const fetchUser = async () => {
       try {
         const response = await fetch('https://api.github.com/users/github-john-doe');
